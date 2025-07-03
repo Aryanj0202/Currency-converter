@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background:linear-gradient(to right, pink,rgb(202, 84, 103));;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+
+}
+
+.container{
+    background-color:rgb(213, 101, 119);
+    padding: 2rem;
+    border-radius:1rem;
+    min-height: 45vh;
+    width: 40vh;
+}
+
+form{
+    margin: 2rem 0 1rem 0;
+}
+
+form select, button, input{
+    width : 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input{
+    border: 3px solid rgb(255, 255, 255);
+    height: 2rem;
+    padding-left: 0.5rem;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.msg{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+p{
+    padding-left: 0.75rem;
+}
+
+.select-container img{
+    max-width: 2rem;
+}
+.select-container{
+    display: flex;
+    width: 6rem;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+}
+
+.dropdown i{
+    font-size: 1.5rem;
+    color: white ;
+    margin-top: 1.5rem;
+}
+.select-container select{
+    width: 100%;
+    background-color: transparent;
+    color: black;
+    font-weight: 500;
+    font-size: 1rem;
+    outline: none;
+}
+
+form button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(202, 94, 94);
+    height:3rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+    
